@@ -1,24 +1,16 @@
-//
-//  ContentView.swift
-//  LittleLemonReservation
-//
-//  Created by Onega on 11-10-26.
-//
 
 import SwiftUI
 
+// Vista inicial que incorpora la navegación
+// principal de Little Lemon.
 struct ContentView: View {
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainView()
     }
 }
 
+// Vista previa para Xcode.
 #Preview {
     ContentView()
 }
